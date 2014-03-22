@@ -1,0 +1,4 @@
+'.source.js':
+  '$.isEmptyObject()':
+    'prefix': 'is'
+    'body': '\$.isEmptyObject(\'${1:object}\');$0'

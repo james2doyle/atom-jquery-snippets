@@ -1,0 +1,4 @@
+'.source.js':
+  '.hasClass':
+    'prefix': 'hasClass'
+    'body': 'hasClass(\'${1:className}\')$0'

@@ -1,0 +1,4 @@
+'.source.js':
+  'replaceWith':
+    'prefix': 'replaceWith'
+    'body': 'replaceWith(\'${1:htmlString/DOMElement/jQueryObject}\'${2:, function() {\n\t$3\n\}});$0'

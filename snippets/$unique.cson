@@ -1,0 +1,4 @@
+'.source.js':
+  '$.unique()':
+    'prefix': 'unique'
+    'body': '\$.unique(${1:DOMelementArray});\n$0'

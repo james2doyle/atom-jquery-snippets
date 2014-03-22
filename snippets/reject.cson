@@ -1,0 +1,4 @@
+'.source.js':
+  'reject':
+    'prefix': 'reject'
+    'body': 'reject(${1:args})$0'

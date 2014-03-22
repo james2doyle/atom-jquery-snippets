@@ -1,0 +1,4 @@
+'.source.js':
+  '$(document).ready':
+    'prefix': 'ready'
+    'body': '\$(document).ready(function() {\n\t$1\n});$0'

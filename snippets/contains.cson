@@ -1,0 +1,4 @@
+'.source.js':
+  '.contains()':
+    'prefix': 'contains'
+    'body': 'contains(\'${1:text to find}\');$0'

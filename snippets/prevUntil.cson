@@ -1,0 +1,4 @@
+'.source.js':
+  '.prevUntil()':
+    'prefix': 'prevUntil'
+    'body': 'prevUntil(${1:selector})$0'

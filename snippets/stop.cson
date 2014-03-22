@@ -1,0 +1,4 @@
+'.source.js':
+  '.stop()':
+    'prefix': 'stop'
+    'body': 'stop(${1:clearQueue}${2:, gotoEnd})$0'

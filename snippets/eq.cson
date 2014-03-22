@@ -1,0 +1,4 @@
+'.source.js':
+  'eq':
+    'prefix': 'eq'
+    'body': 'eq(${1:index})$0'

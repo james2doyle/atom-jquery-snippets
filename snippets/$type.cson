@@ -1,0 +1,4 @@
+'.source.js':
+  '$.type()':
+    'prefix': 'type'
+    'body': '\$.type(${1:DOMelementArray});$0'

@@ -1,0 +1,4 @@
+'.source.js':
+  '$.get()':
+    'prefix': 'get'
+    'body': '\$.get(\'${1:/path/to/file}\', function(data) {\n\t${3:/*optional stuff to do after success */}\n/});$0'

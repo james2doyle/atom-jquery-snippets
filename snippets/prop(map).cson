@@ -1,0 +1,4 @@
+'.source.js':
+  '.prop() - multiple':
+    'prefix': 'prop'
+    'body': 'prop({\n\t${1:property1}: \'${2:value1}\'},\n\t${3:property2}: \'${4:value2}\'},\n})$0'

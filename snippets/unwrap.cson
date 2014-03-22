@@ -1,0 +1,4 @@
+'.source.js':
+  '.unwrap()':
+    'prefix': 'unwrap'
+    'body': 'unwrap(${1:queueName});$0'

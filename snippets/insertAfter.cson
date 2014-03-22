@@ -1,0 +1,4 @@
+'.source.js':
+  '.insertAfter()':
+    'prefix': 'insertAfter'
+    'body': 'insertAfter(\'${1:selector}\')$0'

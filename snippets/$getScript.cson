@@ -1,0 +1,4 @@
+'.source.js':
+  '$.getScript()':
+    'prefix': 'get'
+    'body': '\$.getScript(\'${1:path/to/file}\', function(data, textStatus) {\n\t${3:/*optional stuff to do after getScript */ }\n});$0'

@@ -1,0 +1,4 @@
+'.source.js':
+  'die':
+    'prefix': 'die'
+    'body': 'die(\'${1:eventType}\')$0'

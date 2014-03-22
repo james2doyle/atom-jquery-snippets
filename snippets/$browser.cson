@@ -1,0 +1,4 @@
+'.source.js':
+  '$.browser()':
+    'prefix': 'browser'
+    'body': '\$.browser.${1:webkit/opera/msie/mozilla}$0'

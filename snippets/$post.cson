@@ -1,0 +1,4 @@
+'.source.js':
+  '$.post()':
+    'prefix': 'post'
+    'body': '\$.post(\'${1:/path/to/file}\'${2:, param1: \'value1\'}, function(data, textStatus, xhr) {\n\t${3:/*optional stuff to do after success */}\n});$0'

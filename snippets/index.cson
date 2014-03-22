@@ -1,0 +1,4 @@
+'.source.js':
+  'index':
+    'prefix': 'index'
+    'body': 'index(${1:selector/element})$0'

@@ -1,0 +1,4 @@
+'.source.js':
+  '.nextUntil':
+    'prefix': 'nextUntil'
+    'body': 'nextUntil(${1:selector})$0'

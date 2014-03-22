@@ -1,0 +1,4 @@
+'.source.js':
+  '.filter()':
+    'prefix': 'filter'
+    'body': 'filter($1);$0'

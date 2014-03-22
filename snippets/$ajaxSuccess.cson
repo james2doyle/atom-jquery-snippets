@@ -1,0 +1,4 @@
+'.source.js':
+  '$.ajaxSuccess()':
+    'prefix': 'ajaxsuccess'
+    'body': '\$.ajaxSuccess(function(event, xhr, settings) {\n\t${1:/* executes whenever an AJAX request completes successfully */}\n});$0'

@@ -1,0 +1,4 @@
+'.source.js':
+  '.addBack()':
+    'prefix': 'addback'
+    'body': 'addBack(\'${1:selector}\')$0'

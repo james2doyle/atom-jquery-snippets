@@ -1,0 +1,4 @@
+'.source.js':
+  '.prev()':
+    'prefix': 'prev'
+    'body': 'prev(${1:selector})$0'

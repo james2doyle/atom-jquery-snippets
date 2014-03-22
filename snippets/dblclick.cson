@@ -1,0 +1,4 @@
+'.source.js':
+  '.dblclick()':
+    'prefix': 'dblclick'
+    'body': 'dblclick(${1:function(${2:event}) {\n\t${0:/* Act on the event */}\n\}});'

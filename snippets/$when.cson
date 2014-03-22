@@ -1,0 +1,4 @@
+'.source.js':
+  '$.when()':
+    'prefix': 'when'
+    'body': '\$.when(${1:deferreds});\n$0'

@@ -1,0 +1,4 @@
+'.source.js':
+  '$.isWindow()':
+    'prefix': 'is'
+    'body': '\$.isWindow(\'${1:object}\');$0'

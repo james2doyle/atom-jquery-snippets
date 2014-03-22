@@ -1,0 +1,4 @@
+'.source.js':
+  '$.isNumeric()':
+    'prefix': 'is'
+    'body': '\$.isNumeric(\'${1:object}\');$0'

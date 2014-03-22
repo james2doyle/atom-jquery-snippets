@@ -1,0 +1,4 @@
+'.source.js':
+  '.toggle() (show/hide)':
+    'prefix': 'toggle'
+    'body': 'toggle(${1:slow/400/fast})$0'

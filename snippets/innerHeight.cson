@@ -1,0 +1,4 @@
+'.source.js':
+  '.innerHeight':
+    'prefix': 'innerHeight'
+    'body': 'innerHeight()$0'

@@ -1,0 +1,4 @@
+'.source.js':
+  '$.each()':
+    'prefix': 'each'
+    'body': '\$.each(${1:array/object}, function(${2:index}${3:, ${4:val}}) {\n\t${0: /* iterate through array or object */}\n});'

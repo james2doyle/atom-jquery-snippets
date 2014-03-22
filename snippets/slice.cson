@@ -1,0 +1,4 @@
+'.source.js':
+  '.slice()':
+    'prefix': 'slice'
+    'body': 'slice(${1:start}${2:, end})$0'

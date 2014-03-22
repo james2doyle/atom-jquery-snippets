@@ -1,0 +1,4 @@
+'.source.js':
+  '.fadeTo()':
+    'prefix': 'fadeto'
+    'body': 'fadeTo(\'${1:slow/400/fast}\', ${2:0.5}${3:, function() {\n\t$4\n\}});$0'

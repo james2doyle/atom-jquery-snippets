@@ -1,0 +1,4 @@
+'.source.js':
+  'animate':
+    'prefix': 'animate'
+    'body': 'animate({${1:${2:param1}: ${3:value1}${4:, ${5:param2}: ${6:value2}}}}, ${7:speed})$0'

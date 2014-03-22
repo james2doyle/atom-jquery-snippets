@@ -1,0 +1,4 @@
+'.source.js':
+  '.replaceAll':
+    'prefix': 'replaceAll'
+    'body': 'replaceAll(\'${1:data name}\')$0'

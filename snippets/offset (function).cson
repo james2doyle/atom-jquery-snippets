@@ -1,0 +1,4 @@
+'.source.js':
+  '.offset':
+    'prefix': 'offset'
+    'body': 'offset(function(index, currentCoordinates) {\n\t${1:return ${2:someObject};}\n})'

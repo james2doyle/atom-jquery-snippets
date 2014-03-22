@@ -1,0 +1,4 @@
+'.source.js':
+  '$.ajaxStop()':
+    'prefix': 'ajaxstop'
+    'body': '\$.ajaxStop((function() {\n\t${1:/* stuff to do when all AJAX calls have completed */};\n});\n$0'

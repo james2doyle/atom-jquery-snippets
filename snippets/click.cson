@@ -1,0 +1,4 @@
+'.source.js':
+  'click':
+    'prefix': 'click'
+    'body': 'click(${1:function(${2:event}) {\n\t${0:/* Act on the event */}\n\}});'

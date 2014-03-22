@@ -1,0 +1,4 @@
+'.source.js':
+  '.attr() - single':
+    'prefix': 'attr'
+    'body': 'attr(\'${1:attribute}\', \'${2:value}\');$0'

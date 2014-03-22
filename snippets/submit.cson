@@ -1,0 +1,4 @@
+'.source.js':
+  'submit':
+    'prefix': 'submit'
+    'body': 'submit(${1:function(${2:event}) {\n\t${0:/* Act on the event */}\n\}});'

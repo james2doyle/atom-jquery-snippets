@@ -1,0 +1,4 @@
+'.source.js':
+  '.reset()':
+    'prefix': 'reset'
+    'body': 'reset(${1:function(${2:event}) {\n\t${3:/* Act on the event */}\n\}});$0'

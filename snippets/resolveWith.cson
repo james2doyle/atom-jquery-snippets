@@ -1,0 +1,4 @@
+'.source.js':
+  'resolveWith':
+    'prefix': 'resolveWith'
+    'body': 'resolveWith(${1:context}${2:, args})$0'

@@ -1,0 +1,4 @@
+'.source.js':
+  '$.getjson()':
+    'prefix': 'getjson'
+    'body': '\$.getJSON(\'${1:/path/to/file}\'${2:, {param1: \'value1\'\\}}, function(json, textStatus) {\n\t\t${3:/*optional stuff to do after success */}\n});$0'

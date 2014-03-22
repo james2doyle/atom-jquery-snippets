@@ -1,0 +1,4 @@
+'.source.js':
+  'parentsUntil':
+    'prefix': 'parentsUntil'
+    'body': 'parentsUntil(${1:selector})$0'

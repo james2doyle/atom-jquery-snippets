@@ -1,0 +1,4 @@
+'.source.js':
+  'after':
+    'prefix': 'after'
+    'body': 'after(\'${1:Some text}\')$0'

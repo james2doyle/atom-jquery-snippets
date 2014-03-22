@@ -1,0 +1,4 @@
+'.source.js':
+  '.animate() with callback':
+    'prefix': 'animate'
+    'body': 'animate({\n\t${2:param1}: ${3:value1}${4:,\n\t${5:param2}: ${6:value2}}},\n\t${7:speed}, function() {\n\t${0:/* stuff to do after animation is complete */}\n});'

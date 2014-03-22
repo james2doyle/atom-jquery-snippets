@@ -1,0 +1,4 @@
+'.source.js':
+  '$.now()':
+    'prefix': 'now'
+    'body': '\$.now();$0'

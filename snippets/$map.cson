@@ -1,0 +1,4 @@
+'.source.js':
+  '$.map()':
+    'prefix': 'map'
+    'body': '\$.map(${1:array}, function(${2:item}${3:, ${4:index}}) {\n\t${5:return ${6:something};}\n});'

@@ -1,0 +1,4 @@
+'.source.js':
+  'resolve':
+    'prefix': 'resolve'
+    'body': 'resolve(${1:args})$0'

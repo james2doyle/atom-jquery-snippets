@@ -1,0 +1,4 @@
+'.source.js':
+  'toArray':
+    'prefix': 'toArray'
+    'body': 'toArray()$0'

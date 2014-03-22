@@ -1,0 +1,4 @@
+'.source.js':
+  '.removeData()':
+    'prefix': 'removeData'
+    'body': 'removeData(\'${1:data name}\')$0'

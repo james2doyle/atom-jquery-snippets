@@ -1,0 +1,4 @@
+'.source.js':
+  '.size()':
+    'prefix': 'size'
+    'body': 'size();$0'

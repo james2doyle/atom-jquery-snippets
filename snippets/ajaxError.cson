@@ -1,0 +1,4 @@
+'.source.js':
+  'ajaxError':
+    'prefix': 'ajaxerror'
+    'body': 'ajaxError(function(${1:event, xhr, settings, thrownError}) {\n\t${2:/* Stuff to do when an AJAX call returns an error */};\n});$0'

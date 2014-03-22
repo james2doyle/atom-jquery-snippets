@@ -1,0 +1,4 @@
+'.source.js':
+  '.prependTo()':
+    'prefix': 'prependTo'
+    'body': 'prependTo(\'${1:selector}\')$0'

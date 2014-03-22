@@ -1,0 +1,4 @@
+'.source.js':
+  '.bind':
+    'prefix': 'bind'
+    'body': 'bind(\'${1:event name}\', ${2:eventData}, function(${3:event}) {\n\t${0:/* Act on the event */}\n});'

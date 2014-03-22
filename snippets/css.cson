@@ -1,0 +1,4 @@
+'.source.js':
+  '.css() - single':
+    'prefix': 'css'
+    'body': 'css(\'${1:property}\', \'${2:value}\');$0'

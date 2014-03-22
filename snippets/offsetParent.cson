@@ -1,0 +1,4 @@
+'.source.js':
+  '.offsetParent()':
+    'prefix': 'offsetParent'
+    'body': 'offsetParent();$0'

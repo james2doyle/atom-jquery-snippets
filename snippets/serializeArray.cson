@@ -1,0 +1,4 @@
+'.source.js':
+  '.serializeArray()':
+    'prefix': 'serializeArray'
+    'body': 'serializeArray()$0'

@@ -1,0 +1,4 @@
+'.source.js':
+  'dequeue':
+    'prefix': 'dequeue'
+    'body': 'dequeue(${1:queueName})$0'

@@ -1,0 +1,4 @@
+'.source.js':
+  'is':
+    'prefix': 'is'
+    'body': 'is(\'${1:selector}\')$0'

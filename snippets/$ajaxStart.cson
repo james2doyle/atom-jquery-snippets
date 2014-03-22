@@ -1,0 +1,4 @@
+'.source.js':
+  '$.ajaxStart()':
+    'prefix': 'ajaxstart'
+    'body': '\$.ajaxStart(function() {\n\t${1:/* Stuff to do when an AJAX call is started and no other AJAX calls are in progress */};\n});\n$0'

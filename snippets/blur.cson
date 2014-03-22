@@ -1,0 +1,4 @@
+'.source.js':
+  '.blur':
+    'prefix': 'blur'
+    'body': 'blur(${1:function(${2:event}) {\n\t${0:/* Act on the event */}\n\}});'

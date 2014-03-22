@@ -1,0 +1,4 @@
+'.source.js':
+  '.before()':
+    'prefix': 'before'
+    'body': 'before(\'${1:content}\');$0'

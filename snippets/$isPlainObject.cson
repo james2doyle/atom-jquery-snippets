@@ -1,0 +1,4 @@
+'.source.js':
+  '$.isPlainObject()':
+    'prefix': 'is'
+    'body': '\$.isPlainObject(\'${1:object}\');$0'

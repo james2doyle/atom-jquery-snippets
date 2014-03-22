@@ -1,0 +1,4 @@
+'.source.js':
+  '.html':
+    'prefix': 'html'
+    'body': 'html(${1:Some text and markup})$0'

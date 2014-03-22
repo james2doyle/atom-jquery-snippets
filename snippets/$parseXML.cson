@@ -1,0 +1,4 @@
+'.source.js':
+  '$.parseXML()':
+    'prefix': 'parse'
+    'body': '\$.parseXML(\'${1:XML}\');$0'

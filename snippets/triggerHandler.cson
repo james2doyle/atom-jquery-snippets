@@ -1,0 +1,4 @@
+'.source.js':
+  'triggerHandler':
+    'prefix': 'triggerHandler'
+    'body': 'triggerHandler(\'${1:event name}\')$0'

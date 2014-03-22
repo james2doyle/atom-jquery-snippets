@@ -1,0 +1,4 @@
+'.source.js':
+  'hover':
+    'prefix': 'hover'
+    'body': 'hover(function() {\n\t${1:/* Stuff to do when the mouse enters the element */}\n}, function() {\n\t${2:/* Stuff to do when the mouse leaves the element */}\n});$0'

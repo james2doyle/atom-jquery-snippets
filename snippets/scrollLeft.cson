@@ -1,0 +1,4 @@
+'.source.js':
+  '.scrollLeft()':
+    'prefix': 'scrollLeft'
+    'body': 'scrollLeft(${1:value})$0'

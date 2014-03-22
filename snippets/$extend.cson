@@ -1,0 +1,4 @@
+'.source.js':
+  '$.extend()':
+    'prefix': 'extend'
+    'body': '\$.extend(${1:true}${2:, target object}${3:, object1});\n$0'

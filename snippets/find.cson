@@ -1,0 +1,4 @@
+'.source.js':
+  '.find()':
+    'prefix': 'find'
+    'body': 'find(\'${1:selector}\')$0'

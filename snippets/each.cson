@@ -1,0 +1,4 @@
+'.source.js':
+  '.each()':
+    'prefix': 'each'
+    'body': 'each(${1:function(${2:index}${3:, el}) {\n\t$4\n\}});$0'

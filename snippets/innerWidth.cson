@@ -1,0 +1,4 @@
+'.source.js':
+  '.innerWidth':
+    'prefix': 'innerWidth'
+    'body': 'innerWidth()$0'

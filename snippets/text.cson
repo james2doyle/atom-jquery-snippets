@@ -1,0 +1,4 @@
+'.source.js':
+  '.text':
+    'prefix': 'text'
+    'body': 'text(${1:\'some text\'})$0'

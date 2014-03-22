@@ -1,0 +1,4 @@
+'.source.js':
+  'add':
+    'prefix': 'add'
+    'body': 'add(\'${1:selector/elements/html}\')$0'

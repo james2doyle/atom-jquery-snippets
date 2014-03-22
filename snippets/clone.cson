@@ -1,0 +1,4 @@
+'.source.js':
+  '.clone':
+    'prefix': 'clone'
+    'body': 'clone(${1:boolean}, ${2:boolean})$0'

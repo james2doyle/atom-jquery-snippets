@@ -1,0 +1,4 @@
+'.source.js':
+  'mouseover':
+    'prefix': 'mouseover'
+    'body': 'mouseover(${1:function(${2:event}) {\n\t${0:/* Act on the event */}\n\}});'

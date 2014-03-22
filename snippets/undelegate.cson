@@ -1,0 +1,4 @@
+'.source.js':
+  '.undelegate()':
+    'prefix': 'undelegate'
+    'body': 'undelegate(\'${1:selector}\', \'${2:event type}\', \'${3:function}\');'

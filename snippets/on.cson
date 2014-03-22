@@ -1,0 +1,4 @@
+'.source.js':
+  '.on()':
+    'prefix': 'on'
+    'body': 'on(\'${1:click}\'${2:, \'${3:.selector}\'}, function(${4:event}) {\n\t${5:event.preventDefault();}\n\t${6:/* Act on the event */}\n});'

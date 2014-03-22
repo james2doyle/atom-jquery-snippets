@@ -1,0 +1,4 @@
+'.source.js':
+  '.delay()':
+    'prefix': 'delay'
+    'body': 'delay(${1:milliseconds}${2:, \'queueName\'})$0'

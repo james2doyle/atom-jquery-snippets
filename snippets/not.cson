@@ -1,0 +1,4 @@
+'.source.js':
+  '.not()':
+    'prefix': 'not'
+    'body': 'not(\'${1:selector}\')$0'

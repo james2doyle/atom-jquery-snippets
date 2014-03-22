@@ -1,0 +1,4 @@
+'.source.js':
+  'wrapInner':
+    'prefix': 'wrapInner'
+    'body': 'wrapInner(\'${1:&lt;div class="extra-wrapper"&gt;&lt;/div&gt;}\')$0'

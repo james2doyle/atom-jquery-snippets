@@ -1,0 +1,4 @@
+'.source.js':
+  '.prevAll()':
+    'prefix': 'prevAll'
+    'body': 'prevAll(${1:selector})$0'

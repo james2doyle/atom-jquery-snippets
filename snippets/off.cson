@@ -1,0 +1,4 @@
+'.source.js':
+  'off':
+    'prefix': 'off'
+    'body': 'off();'

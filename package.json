@@ -1,0 +1,24 @@
+{
+  "name": "jquery-snippets",
+  "main": "./lib/jquery-snippets",
+  "version": "0.0.1",
+  "description": "jQuery Snippets for Atom",
+  "activationEvents": [
+    "jquery-snippets:toggle"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/james2doyle/atom-jquery-snippets"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {},
+  "readme": "",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/james2doyle/atom-jquery-snippets/issues"
+  },
+  "homepage": "https://github.com/james2doyle/atom-jquery-snippets"
+}

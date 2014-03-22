@@ -1,0 +1,4 @@
+'.source.js':
+  'first':
+    'prefix': 'first'
+    'body': 'first()$0'

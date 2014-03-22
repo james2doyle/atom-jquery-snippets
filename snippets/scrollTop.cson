@@ -1,0 +1,4 @@
+'.source.js':
+  '.scrollTop()':
+    'prefix': 'scrollTop'
+    'body': 'scrollTop(${1:value})$0'

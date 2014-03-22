@@ -1,0 +1,4 @@
+'.source.js':
+  '.parents()':
+    'prefix': 'parents'
+    'body': 'parents(${1:selector})$0'

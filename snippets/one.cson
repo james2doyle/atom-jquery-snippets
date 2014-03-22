@@ -1,0 +1,4 @@
+'.source.js':
+  '.one':
+    'prefix': 'one'
+    'body': 'one(\'${1:event name}\', function(${2:event}) {\n\t${0:/* Act on the event */}\n});'

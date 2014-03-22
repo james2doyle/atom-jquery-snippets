@@ -1,0 +1,4 @@
+'.source.js':
+  '$.ajaxSend()':
+    'prefix': 'ajaxsend'
+    'body': '\$.ajaxSend(function(${1:event, xhr, settings}) {\n\t${2:/* stuff to do before an AJAX request is sent */};\n});\n$0'

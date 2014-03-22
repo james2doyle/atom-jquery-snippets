@@ -1,0 +1,4 @@
+'.source.js':
+  '.fadeIn()':
+    'prefix': 'fadeIn'
+    'body': 'fadeIn(${1:\'slow/400/fast\'}${2:, function() {\n\t$3\n\}});$0'

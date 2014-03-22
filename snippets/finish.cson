@@ -1,0 +1,4 @@
+'.source.js':
+  '.finish()':
+    'prefix': 'finish'
+    'body': 'finish(\'${1:queue name}\')$0'

@@ -1,0 +1,4 @@
+'.source.js':
+  '$.inArray()':
+    'prefix': 'inarray'
+    'body': '\$.inArray(${1:value}, ${2:array});$0'

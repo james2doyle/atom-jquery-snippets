@@ -1,0 +1,4 @@
+'.source.js':
+  '.serialize()':
+    'prefix': 'serialize'
+    'body': 'serialize()$0'
