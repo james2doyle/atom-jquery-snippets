@@ -1,7 +1,7 @@
 {
   "name": "jquery-snippets",
   "main": "./lib/jquery-snippets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "jQuery Snippets for Atom",
   "activationEvents": [
     "jquery-snippets:toggle"
