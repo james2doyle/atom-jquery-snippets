@@ -1,4 +1,4 @@
 '.source.js':
   'document.ready - $(function()':
-    'prefix': 'ready'
+    'prefix': 'ready-3'
     'body': '\$(function() {\n\t$1\n});$0'
