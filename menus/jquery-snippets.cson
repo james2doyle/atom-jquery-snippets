@@ -1,7 +1,6 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
-  '.overlayer':
-      'Enable jquery-snippets': 'jquery-snippets:toggle'
+  '.overlayer': [{ label: 'Enable jquery-snippets', command: 'Enable jquery-snippets'}]
 
 'menu': [
   {
