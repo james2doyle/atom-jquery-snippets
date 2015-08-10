@@ -1,4 +1,4 @@
 '.source.js':
   '.detach()':
     'prefix': 'detach'
-    'body': 'detach()$0'
+    'body': 'detach();$0'
