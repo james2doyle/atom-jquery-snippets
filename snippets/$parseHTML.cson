@@ -1,0 +1,4 @@
+'.source.js':
+  '$.parseHTML()':
+    'prefix': 'parse'
+    'body': '\$.parseHTML(\'${1:html}\');$0'
