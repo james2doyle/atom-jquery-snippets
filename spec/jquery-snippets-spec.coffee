@@ -1,4 +1,5 @@
 JquerySnippets = require '../lib/jquery-snippets'
+{$} = require 'atom-space-pen-views'
 
 # Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 #
@@ -6,24 +7,23 @@ JquerySnippets = require '../lib/jquery-snippets'
 # or `fdescribe`). Remove the `f` to unfocus the block.
 
 describe "JquerySnippets", ->
-  activationPromise = null
+  [activationPromise, workspaceElement] = []
 
   beforeEach ->
-    atom.workspaceView = new WorkspaceView
-    activationPromise = atom.packages.activatePackage('jquerySnippets')
+    workspaceElement = atom.views.getView(atom.workspace)
+    activationPromise = atom.packages.activatePackage('jquery-snippets')
 
   describe "when the jquery-snippets:toggle event is triggered", ->
     it "attaches and then detaches the view", ->
-      expect(atom.workspaceView.find('.jquery-snippets')).not.toExist()
+      expect($(workspaceElement).find('.jquery-snippets')).not.toExist()
 
       # This is an activation event, triggering it will cause the package to be
       # activated.
-      atom.workspaceView.trigger 'jquery-snippets:toggle'
+      atom.commands.dispatch workspaceElement, 'jquery-snippets:toggle'
 
       waitsForPromise ->
         activationPromise
 
       runs ->
-        expect(atom.workspaceView.find('.jquery-snippets')).toExist()
-        atom.workspaceView.trigger 'jquery-snippets:toggle'
-        expect(atom.workspaceView.find('.jquery-snippets')).not.toExist()
+        atom.commands.dispatch workspaceElement, 'jquery-snippets:toggle'
+        expect($(workspaceElement).find('.jquery-snippets')).not.toExist()
