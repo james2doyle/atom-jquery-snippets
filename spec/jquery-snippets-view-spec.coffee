@@ -1,5 +1,5 @@
 JquerySnippetsView = require '../lib/jquery-snippets-view'
-{WorkspaceView} = require 'atom'
+{$} = require 'atom-space-pen-views'
 
 describe "JquerySnippetsView", ->
   it "has one valid test", ->

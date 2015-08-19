@@ -7,7 +7,7 @@ class JquerySnippetsView extends View
       @div "The JquerySnippets package is Alive! It's ALIVE!", class: "message"
 
   initialize: (serializeState) ->
-    atom.workspaceView.command "jquery-snippets:toggle", => @toggle()
+    atom.commands.add 'atom-workspace', 'jquery-snippets:toggle', => @toggle()
 
   # Returns an object that can be retrieved when package is activated
   serialize: ->
@@ -21,4 +21,4 @@ class JquerySnippetsView extends View
     if @hasParent()
       @detach()
     else
-      atom.workspaceView.append(this)
+      atom.views.getView(atom.workspace).appendChild(@element)
