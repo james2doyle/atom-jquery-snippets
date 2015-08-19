@@ -43,8 +43,10 @@ $ apm link
 * $isWindow
 * $map
 * $merge
+* $noConflict
 * $noop
 * $now
+* $parseHTML
 * $parseJSON
 * $parseXML
 * $post
@@ -54,8 +56,8 @@ $ apm link
 * $unique
 * $when
 * add
-* addback
 * addClass
+* addback
 * after
 * ajax
 * ajaxComplete
@@ -85,6 +87,7 @@ $ apm link
 * delay
 * delegate
 * dequeue
+* detach
 * die
 * document-ready-1
 * document-ready-2
@@ -149,14 +152,15 @@ $ apm link
 * parent
 * parents
 * parentsUntil
+* position
 * prepend
 * prependTo
 * prev
 * prevAll
 * prevUntil
 * promise
-* prop
 * prop(map)
+* prop
 * reject
 * remove
 * removeAttr
