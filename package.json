@@ -1,7 +1,7 @@
 {
   "name": "jquery-snippets",
   "main": "./lib/jquery-snippets",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "jQuery Snippets for Atom",
   "activationCommands": {
     "atom-workspace": [
