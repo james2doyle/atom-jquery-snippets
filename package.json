@@ -3,11 +3,6 @@
   "main": "./lib/jquery-snippets",
   "version": "6.0.0",
   "description": "jQuery Snippets for Atom",
-  "activationCommands": {
-    "atom-workspace": [
-      "jquery-snippets:toggle"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/james2doyle/atom-jquery-snippets"
