@@ -15,10 +15,3 @@ class JquerySnippetsView extends View
   # Tear down any state and detach
   destroy: ->
     @detach()
-
-  toggle: ->
-    console.log "JquerySnippetsView was toggled!"
-    if @hasParent()
-      @detach()
-    else
-      atom.views.getView(atom.workspace).appendChild(@element)
