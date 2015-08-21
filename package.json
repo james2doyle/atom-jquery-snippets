@@ -1,7 +1,7 @@
 {
   "name": "jquery-snippets",
   "main": "./lib/jquery-snippets",
-  "version": "9.0.0",
+  "version": "10.0.0",
   "description": "jQuery Snippets for Atom",
   "repository": {
     "type": "git",
