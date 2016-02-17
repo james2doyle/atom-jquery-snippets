@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   'after':
     'prefix': 'after'
     'body': 'after(\'${1:Some text}\')$0'

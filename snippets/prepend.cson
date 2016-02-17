@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.prepend':
     'prefix': 'prepend'
     'body': 'prepend(\'${1:Some text}\')$0'

@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   'add':
     'prefix': 'add'
     'body': 'add(\'${1:selector/elements/html}\')$0'

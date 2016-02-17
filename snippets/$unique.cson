@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '$.unique()':
     'prefix': 'unique'
     'body': '\$.unique(${1:DOMelementArray});\n$0'

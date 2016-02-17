@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.width':
     'prefix': 'width'
     'body': 'width(${1:integer})$0'

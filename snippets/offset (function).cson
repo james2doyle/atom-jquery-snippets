@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.offset':
     'prefix': 'offset'
     'body': 'offset(function(index, currentCoordinates) {\n\t${1:return ${2:someObject};}\n})'

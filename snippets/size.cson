@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.size()':
     'prefix': 'size'
     'body': 'size();$0'

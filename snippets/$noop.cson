@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '$.noop()':
     'prefix': 'noop'
     'body': '\$.noop();$0'

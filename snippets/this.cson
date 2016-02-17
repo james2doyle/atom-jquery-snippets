@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '$(this)':
     'prefix': 'this'
     'body': '\$(this)$0'

@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.clearQueue()':
     'prefix': 'clearQueue'
     'body': 'clearQueue(${1:queueName});$0'

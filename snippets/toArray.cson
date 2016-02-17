@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   'toArray':
     'prefix': 'toArray'
     'body': 'toArray()$0'

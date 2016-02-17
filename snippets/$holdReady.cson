@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '$.holdReady':
     'prefix': 'holdready'
     'body': '\\\$.holdReady(${1:true/false});'

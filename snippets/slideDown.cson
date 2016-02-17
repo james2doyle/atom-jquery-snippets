@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.slideDown()':
     'prefix': 'slideDown'
     'body': 'slideDown(\'${1:slow/400/fast}\'${2:, function() {\n\t$3\n\}});$0'

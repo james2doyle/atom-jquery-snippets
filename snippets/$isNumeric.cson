@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '$.isNumeric()':
     'prefix': 'is'
     'body': '\$.isNumeric(\'${1:object}\');$0'

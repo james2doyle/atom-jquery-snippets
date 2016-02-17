@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '$.when()':
     'prefix': 'when'
     'body': '\$.when(${1:deferreds});\n$0'

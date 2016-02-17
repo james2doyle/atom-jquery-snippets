@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.outerHeight':
     'prefix': 'outerHeight'
     'body': 'outerHeight()$0'

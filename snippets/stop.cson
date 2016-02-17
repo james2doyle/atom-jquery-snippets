@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.stop()':
     'prefix': 'stop'
     'body': 'stop(${1:clearQueue}${2:, gotoEnd})$0'

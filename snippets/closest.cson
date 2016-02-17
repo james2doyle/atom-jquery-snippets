@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.closest()':
     'prefix': 'closest'
     'body': 'closest(\'${1:selector}\')$0'

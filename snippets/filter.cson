@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.filter()':
     'prefix': 'filter'
     'body': 'filter($1);$0'

@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   'end':
     'prefix': 'end'
     'body': 'end()$0'

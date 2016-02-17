@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '$.parseHTML()':
     'prefix': 'parse'
     'body': '\$.parseHTML(\'${1:html}\');$0'

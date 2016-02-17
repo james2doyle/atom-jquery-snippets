@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '$.isEmptyObject()':
     'prefix': 'is'
     'body': '\$.isEmptyObject(\'${1:object}\');$0'

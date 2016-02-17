@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.load':
     'prefix': 'load'
     'body': 'load(${1:function() {\n\t${0:/* Act on the event */}\n\}});'

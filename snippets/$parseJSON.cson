@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '$.parseJSON()':
     'prefix': 'parse'
     'body': '\$.parseJSON(\'${1:json}\');$0'

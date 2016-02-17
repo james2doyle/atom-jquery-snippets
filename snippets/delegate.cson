@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.delegate':
     'prefix': 'delegate'
     'body': 'delegate(\'${1:selector}\', \'${2:eventType}\', function(${4:event}) {\n\t$1\n});$0'

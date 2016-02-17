@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   'get':
     'prefix': 'get'
     'body': 'get(${1:element index})$0'
