@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.ajaxComplete()':
     'prefix': 'ajaxComplete'
     'body': 'ajaxComplete(function(event, xhr, settings) {\n\t${1:/* executes whenever an AJAX request completes */}\n});$0'

@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.scrollLeft()':
     'prefix': 'scrollLeft'
     'body': 'scrollLeft(${1:value})$0'

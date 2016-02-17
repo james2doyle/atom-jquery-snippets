@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   'index':
     'prefix': 'index'
     'body': 'index(${1:selector/element})$0'

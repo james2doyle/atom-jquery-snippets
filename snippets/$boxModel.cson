@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '$.boxModel()':
     'prefix': 'boxmodel'
     'body': '\$.boxModel(${1:DOMelementArray});\n$0'

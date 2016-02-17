@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.contains()':
     'prefix': 'contains'
     'body': 'contains(\'${1:text to find}\');$0'

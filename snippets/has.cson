@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.has':
     'prefix': 'has'
     'body': 'has(${1:contained selector/element})$0'

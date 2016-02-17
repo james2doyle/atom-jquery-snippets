@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.delay()':
     'prefix': 'delay'
     'body': 'delay(${1:milliseconds}${2:, \'queueName\'})$0'

@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.select()':
     'prefix': 'select'
     'body': 'select(${1:function(${2:event}) {\n\t${2:/* Act on the event */}\n\}});$0'

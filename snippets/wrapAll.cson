@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   'wrapAll':
     'prefix': 'wrapAll'
     'body': 'wrapAll(\'${1:&lt;div class="extra-wrapper"&gt;&lt;/div&gt;}\')$0'

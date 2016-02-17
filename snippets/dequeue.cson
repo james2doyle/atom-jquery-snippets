@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   'dequeue':
     'prefix': 'dequeue'
     'body': 'dequeue(${1:queueName})$0'

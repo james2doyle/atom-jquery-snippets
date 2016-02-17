@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.prop() - single':
     'prefix': 'prop'
     'body': 'prop(\'${1:property}\', \'${2:value}\')$0'

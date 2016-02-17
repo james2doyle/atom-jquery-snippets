@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.append':
     'prefix': 'append'
     'body': 'append(\'${1:Some text}\')$0'

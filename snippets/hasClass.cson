@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.hasClass':
     'prefix': 'hasClass'
     'body': 'hasClass(\'${1:className}\')$0'

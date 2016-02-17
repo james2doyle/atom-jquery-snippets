@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   'first':
     'prefix': 'first'
     'body': 'first()$0'

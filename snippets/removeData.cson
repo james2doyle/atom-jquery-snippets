@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.removeData()':
     'prefix': 'removeData'
     'body': 'removeData(\'${1:data name}\')$0'

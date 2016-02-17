@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.unbind()':
     'prefix': 'unbind'
     'body': 'unbind(\'${1:event name(s)}\'${2:functionName})$0'

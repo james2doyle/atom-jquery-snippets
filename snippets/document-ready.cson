@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   'document.ready - $(function()':
     'prefix': '$ready'
     'body': '\$(function() {\n\t$1\n});$0'

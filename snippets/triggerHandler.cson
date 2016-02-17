@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   'triggerHandler':
     'prefix': 'triggerHandler'
     'body': 'triggerHandler(\'${1:event name}\')$0'

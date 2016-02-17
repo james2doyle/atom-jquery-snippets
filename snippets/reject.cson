@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   'reject':
     'prefix': 'reject'
     'body': 'reject(${1:args})$0'

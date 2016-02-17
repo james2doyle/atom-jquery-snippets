@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.data()':
     'prefix': 'data'
     'body': 'data(\'${1:name}\', ${2:\'value\'})$0'

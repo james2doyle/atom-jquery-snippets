@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   '.val()':
     'prefix': 'val'
     'body': 'val(${1:text})$0'

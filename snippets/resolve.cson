@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.js-semantic':
   'resolve':
     'prefix': 'resolve'
     'body': 'resolve(${1:args})$0'
