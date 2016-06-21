@@ -7,16 +7,13 @@
 				${2:type: '${3:default GET (Other values: POST)}',}
 				${4:dataType: '${5:default: Intelligent Guess (Other values: xml, json, script, or html)}',}
 				${6:data: {param1: 'value1'}}
-			})
-			${7:.done(function( data, textStatus, xhr ) {
-				console.log("success");
-			}})
-			${8:.fail(function( xhr, textStatus, errorThrown ) {
-				console.log("error");
-			}})
-			${9:.always(function( data, textStatus, xhr ) {
-				console.log("complete");
-			}});
+			}).then(
+				function( data, textStatus, xhr ) {
+					${7:console.log("success");}
+				},
+				function( data, textStatus, xhr ) {
+					${8:console.log("error");}
+				});
 			$0
 		'''
 ".source.coffee":
@@ -28,13 +25,9 @@
 				${2:type: '${3:default GET (Other values: POST)}'}
 				${4:dataType: '${5:default: Intelligent Guess (Other values: xml, json, script, or html)}'}
 				${6:data: param1: 'value1'}
-			${7:.done ( data, textStatus, xhr ) ->
-				console.log("success");
-			}
-			${8:.fail ( xhr, textStatus, errorThrown ) ->
-				console.log("error");
-			}
-			${9:.always ( data, textStatus, xhr ) ->
-				console.log("complete");
-			}$0
+			.then ( data, textStatus, xhr ) ->
+					${7:console.log("success")}
+				, ( xhr, textStatus, errorThrown ) ->
+					${8:console.log("error")}
+			$0
 		'''
