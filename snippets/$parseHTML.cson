@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '$.parseHTML()':
-    'prefix': 'parse'
-    'body': '\$.parseHTML(\'${1:html}\');$0'
+".source.js, .source.js-semantic":
+	"$.parseHTML()":
+		prefix: "parse"
+		body: "$.parseHTML('${1:html}');$0"
+".source.coffee":
+	"$.parseHTML()":
+		prefix: "parse"
+		body: "$.parseHTML '${1:html}'$0"

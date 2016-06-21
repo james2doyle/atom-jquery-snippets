@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.parents()':
-    'prefix': 'parents'
-    'body': 'parents(${1:selector})$0'
+".source.js, .source.js-semantic":
+	".parents()":
+		prefix: "parents"
+		body: "parents(${1:selector})$0"
+".source.coffee":
+	".parents()":
+		prefix: "parents"
+		body: "parents ${1:selector}$0"

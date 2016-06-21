@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.serialize()':
-    'prefix': 'serialize'
-    'body': 'serialize()$0'
+".source.js, .source.js-semantic":
+	".serialize()":
+		prefix: "serialize"
+		body: "serialize()$0"
+".source.coffee":
+	".serialize()":
+		prefix: "serialize"
+		body: "serialize()$0"

@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '$.parseJSON()':
-    'prefix': 'parse'
-    'body': '\$.parseJSON(\'${1:json}\');$0'
+".source.js, .source.js-semantic":
+	"$.parseJSON()":
+		prefix: "parse"
+		body: "$.parseJSON('${1:json}');$0"
+".source.coffee":
+	"$.parseJSON()":
+		prefix: "parse"
+		body: "$.parseJSON '${1:json}'$0"

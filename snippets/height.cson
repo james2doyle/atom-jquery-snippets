@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  'height':
-    'prefix': 'height'
-    'body': 'height(${1:integer})$0'
+".source.js, .source.js-semantic":
+	height:
+		prefix: "height"
+		body: "height(${1:integer})$0"
+".source.coffee":
+	height:
+		prefix: "height"
+		body: "height ${1:integer}$0"

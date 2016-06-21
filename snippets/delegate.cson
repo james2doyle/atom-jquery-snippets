@@ -1,4 +1,16 @@
-'.source.js, .source.js-semantic':
-  '.delegate':
-    'prefix': 'delegate'
-    'body': 'delegate(\'${1:selector}\', \'${2:eventType}\', function(${4:event}) {\n\t$1\n});$0'
+".source.js, .source.js-semantic":
+	".delegate":
+		prefix: "delegate"
+		body: '''
+			delegate('${1:selector}', '${2:eventType}', function(${4:event}) {
+				$1
+			});$0
+		'''
+".source.coffee":
+	".delegate":
+		prefix: "delegate"
+		body: '''
+			delegate '${1:selector}', '${2:eventType}', (${4:event}) ->
+				$1
+			$0
+		'''

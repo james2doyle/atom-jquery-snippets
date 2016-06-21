@@ -1,4 +1,42 @@
-'.source.js, .source.js-semantic':
-  '$.ajaxSetup()':
-    'prefix': 'ajaxsetup'
-    'body': '\$.ajaxSetup({\n\turl: \'${1:/path/to/file}\',\n\t${2:type: \'${3:default GET (Other values: POST)}\',}\n\t${4:dataType: \'${5:default: Intelligent Guess (Other values: xml, json, script, or html)}\',}\n\t${6:data: {param1: \'value1\'\\},}\n})\n${7:.done(function() {\n\tconsole.log("success");\n\\})}\n${8:.fail(function() {\n\tconsole.log("error");\n\\})}\n${9:.always(function() {\n\tconsole.log("complete");\n\\})};\n$0'
+".source.js, .source.js-semantic":
+	"$.ajaxSetup()":
+		prefix: "ajaxsetup"
+		body: '''
+			$.ajaxSetup({
+				url: '${1:/path/to/file}',
+				${2:type: '${3:default GET (Other values: POST)}',}
+				${4:dataType: '${5:default: Intelligent Guess (Other values: xml, json, script, or html)}',}
+				${6:data: {param1: 'value1'\\},}
+			})
+			${7:.done(function() {
+				console.log("success");
+			\\})}
+			${8:.fail(function() {
+				console.log("error");
+			\\})}
+			${9:.always(function() {
+				console.log("complete");
+			\\})};
+			$0
+		'''
+".source.coffee":
+	"$.ajaxSetup()":
+		prefix: "ajaxsetup"
+		body: '''
+			$.ajaxSetup
+				url: '${1:/path/to/file}'
+				${2:type: '${3:default GET (Other values: POST)}'}
+				${4:dataType: '${5:default: Intelligent Guess (Other values: xml, json, script, or html)}'}
+				${6:data: {param1: 'value1'}}
+
+			${7:.done () ->
+				console.log("success")}
+
+			${8:.fail () ->
+				console.log("error")}
+
+			${9:.always ->
+				console.log("complete")}
+
+			$0
+		'''

@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.closest()':
-    'prefix': 'closest'
-    'body': 'closest(\'${1:selector}\')$0'
+".source.js, .source.js-semantic":
+	".closest()":
+		prefix: "closest"
+		body: "closest('${1:selector}')$0"
+".source.coffee":
+	".closest()":
+		prefix: "closest"
+		body: "closest '${1:selector}'$0"

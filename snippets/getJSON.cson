@@ -1,4 +1,16 @@
-'.source.js, .source.js-semantic':
-  '$.getjson()':
-    'prefix': 'getjson'
-    'body': '\$.getJSON(\'${1:/path/to/file}\'${2:, {param1: \'value1\'\\}}, function(json, textStatus) {\n\t\t${3:/*optional stuff to do after success */}\n});$0'
+".source.js, .source.js-semantic":
+	"$.getjson()":
+		prefix: "getjson"
+		body: '''
+			$.getJSON('${1:/path/to/file}'${2:, {param1: 'value1'\\}}, function(json, textStatus) {
+					${3:/*optional stuff to do after success */}
+			});$0
+		'''
+".source.coffee":
+	"$.getjson()":
+		prefix: "getjson"
+		body: '''
+			$.getJSON '${1:/path/to/file}'${2:, {param1: 'value1'\\}}, (json, textStatus) ->
+					${3:/*optional stuff to do after success */}
+			$0
+		'''

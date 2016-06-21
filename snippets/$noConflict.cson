@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.noConflict()':
-    'prefix': 'noconflict'
-    'body': '\$.noConflict();$0'
+".source.js, .source.js-semantic":
+	".noConflict()":
+		prefix: "noconflict"
+		body: "$.noConflict();$0"
+".source.coffee":
+	".noConflict()":
+		prefix: "noconflict"
+		body: "$.noConflict()$0"

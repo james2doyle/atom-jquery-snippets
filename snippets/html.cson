@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.html':
-    'prefix': 'html'
-    'body': 'html(${1:Some text and markup})$0'
+".source.js, .source.js-semantic":
+	".html":
+		prefix: "html"
+		body: "html(${1:Some text and markup})$0"
+".source.coffee":
+	".html":
+		prefix: "html"
+		body: "html ${1:Some text and markup}$0"

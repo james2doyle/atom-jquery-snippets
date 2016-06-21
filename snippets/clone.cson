@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.clone':
-    'prefix': 'clone'
-    'body': 'clone(${1:boolean}, ${2:boolean})$0'
+".source.js, .source.js-semantic":
+	".clone":
+		prefix: "clone"
+		body: "clone(${1:boolean}, ${2:boolean})$0"
+".source.coffee":
+	".clone":
+		prefix: "clone"
+		body: "clone ${1:boolean}, ${2:boolean}$0"

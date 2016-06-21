@@ -1,4 +1,15 @@
-'.source.js, .source.js-semantic':
-  '.offset':
-    'prefix': 'offset'
-    'body': 'offset(function(index, currentCoordinates) {\n\t${1:return ${2:someObject};}\n})'
+".source.js, .source.js-semantic":
+	".offset":
+		prefix: "offset"
+		body: '''
+			offset(function(index, currentCoordinates) {
+				${1:return ${2:someObject};}
+			})
+		'''
+".source.coffee":
+	".offset":
+		prefix: "offset"
+		body: '''
+			offset (index, currentCoordinates) ->
+				${1:return ${2:someObject}}
+		'''

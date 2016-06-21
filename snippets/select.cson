@@ -1,4 +1,16 @@
-'.source.js, .source.js-semantic':
-  '.select()':
-    'prefix': 'select'
-    'body': 'select(${1:function(${2:event}) {\n\t${2:/* Act on the event */}\n\}});$0'
+".source.js, .source.js-semantic":
+	".select()":
+		prefix: "select"
+		body: '''
+			select(${1:function(${2:event}) {
+				${2:/* Act on the event */}
+			}});$0
+		'''
+".source.coffee":
+	".select()":
+		prefix: "select"
+		body: '''
+			select ${1:(${2:event}) ->
+				${2:# Act on the event}
+			}$0
+		'''

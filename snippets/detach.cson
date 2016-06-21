@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.detach()':
-    'prefix': 'detach'
-    'body': 'detach();$0'
+".source.js, .source.js-semantic":
+	".detach()":
+		prefix: "detach"
+		body: "detach();$0"
+".source.coffee":
+	".detach()":
+		prefix: "detach"
+		body: "detach()$0"

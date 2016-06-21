@@ -1,4 +1,16 @@
-'.source.js, .source.js-semantic':
-  '.filter function':
-    'prefix': 'filter'
-    'body': 'filter(function(index) {\n\t${1:return ${2:something};}\n});$0'
+".source.js, .source.js-semantic":
+	".filter function":
+		prefix: "filter"
+		body: '''
+			filter(function(index) {
+				${1:return ${2:something};}
+			});$0
+		'''
+".source.coffee":
+	".filter function":
+		prefix: "filter"
+		body: '''
+			filter (index) ->
+				${1:return ${2:something}}
+			$0
+		'''

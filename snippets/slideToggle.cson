@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.slideToggle()':
-    'prefix': 'slideToggle'
-    'body': 'slideToggle(${1:slow/400/fast})$0'
+".source.js, .source.js-semantic":
+	".slideToggle()":
+		prefix: "slideToggle"
+		body: "slideToggle(${1:slow/400/fast})$0"
+".source.coffee":
+	".slideToggle()":
+		prefix: "slideToggle"
+		body: "slideToggle ${1:slow/400/fast}$0"

@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '$.browser()':
-    'prefix': 'browser'
-    'body': '\$.browser.${1:webkit/opera/msie/mozilla}$0'
+".source.js, .source.js-semantic":
+	"$.browser()":
+		prefix: "browser"
+		body: "$.browser.${1:webkit/opera/msie/mozilla}$0"
+".source.coffee":
+	"$.browser()":
+		prefix: "browser"
+		body: "$.browser.${1:webkit/opera/msie/mozilla}$0"

@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.children()':
-    'prefix': 'children'
-    'body': 'children(\'${1:selector}\')$0'
+".source.js, .source.js-semantic":
+	".children()":
+		prefix: "children"
+		body: "children('${1:selector}')$0"
+".source.coffee":
+	".children()":
+		prefix: "children"
+		body: "children '${1:selector}'$0"

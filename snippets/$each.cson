@@ -1,4 +1,15 @@
-'.source.js, .source.js-semantic':
-  '$.each()':
-    'prefix': 'each'
-    'body': '\$.each(${1:array/object}, function(${2:index}${3:, ${4:val}}) {\n\t${0: /* iterate through array or object */}\n});'
+".source.js, .source.js-semantic":
+	"$.each()":
+		prefix: "each"
+		body: '''
+			$.each(${1:array/object}, function(${2:index}${3:, ${4:val}}) {
+				${0: /* iterate through array or object */}
+			});
+		'''
+".source.coffee":
+	"$.each()":
+		prefix: "each"
+		body: '''
+			$.each ${1:array/object}, (${2:index}${3:, ${4:val}} ->
+				${0: /* iterate through array or object */}
+		'''

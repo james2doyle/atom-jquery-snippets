@@ -1,4 +1,20 @@
-'.source.js, .source.js-semantic':
-  'hover':
-    'prefix': 'hover'
-    'body': 'hover(function() {\n\t${1:/* Stuff to do when the mouse enters the element */}\n}, function() {\n\t${2:/* Stuff to do when the mouse leaves the element */}\n});$0'
+".source.js, .source.js-semantic":
+	hover:
+		prefix: "hover"
+		body: '''
+			hover(function() {
+				${1:/* Stuff to do when the mouse enters the element */}
+			}, function() {
+				${2:/* Stuff to do when the mouse leaves the element */}
+			});$0
+		'''
+".source.coffee":
+	hover:
+		prefix: "hover"
+		body: '''
+			hover ->
+				${1:/* Stuff to do when the mouse enters the element */}
+			, ->
+				${2:/* Stuff to do when the mouse leaves the element */}
+			$0
+		'''

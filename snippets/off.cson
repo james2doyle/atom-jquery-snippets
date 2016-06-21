@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  'off':
-    'prefix': 'off'
-    'body': 'off();'
+".source.js, .source.js-semantic":
+	off:
+		prefix: "off"
+		body: "off();"
+".source.coffee":
+	off:
+		prefix: "off"
+		body: "off()"

@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '$.isWindow()':
-    'prefix': 'is'
-    'body': '\$.isWindow(\'${1:object}\');$0'
+".source.js, .source.js-semantic":
+	"$.isWindow()":
+		prefix: "is"
+		body: "$.isWindow('${1:object}');$0"
+".source.coffee":
+	"$.isWindow()":
+		prefix: "is"
+		body: "$.isWindow '${1:object}'$0"

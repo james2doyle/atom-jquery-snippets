@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.prev()':
-    'prefix': 'prev'
-    'body': 'prev(${1:selector})$0'
+".source.js, .source.js-semantic":
+	".prev()":
+		prefix: "prev"
+		body: "prev(${1:selector})$0"
+".source.coffee":
+	".prev()":
+		prefix: "prev"
+		body: "prev ${1:selector}$0"

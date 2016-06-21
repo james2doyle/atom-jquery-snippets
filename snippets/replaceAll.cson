@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.replaceAll':
-    'prefix': 'replaceAll'
-    'body': 'replaceAll(\'${1:data name}\')$0'
+".source.js, .source.js-semantic":
+	".replaceAll":
+		prefix: "replaceAll"
+		body: "replaceAll('${1:data name}')$0"
+".source.coffee":
+	".replaceAll":
+		prefix: "replaceAll"
+		body: "replaceAll '${1:data name}'$0"

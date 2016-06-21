@@ -1,4 +1,12 @@
-'.source.js, .source.js-semantic':
-  '$.unique()':
-    'prefix': 'unique'
-    'body': '\$.unique(${1:DOMelementArray});\n$0'
+".source.js, .source.js-semantic":
+	"$.unique()":
+		prefix: "unique"
+		body: '''
+			$.unique(${1:DOMelementArray});$0
+		'''
+".source.coffee":
+	"$.unique()":
+		prefix: "unique"
+		body: '''
+			$.unique ${1:DOMelementArray}$0
+		'''

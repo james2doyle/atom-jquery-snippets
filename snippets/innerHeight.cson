@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.innerHeight':
-    'prefix': 'innerHeight'
-    'body': 'innerHeight()$0'
+".source.js, .source.js-semantic":
+	".innerHeight":
+		prefix: "innerHeight"
+		body: "innerHeight()$0"
+".source.coffee":
+	".innerHeight":
+		prefix: "innerHeight"
+		body: "innerHeight()$0"

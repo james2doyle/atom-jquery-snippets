@@ -1,4 +1,16 @@
-'.source.js, .source.js-semantic':
-  'mouseleave':
-    'prefix': 'mouseleave'
-    'body': 'mouseleave(${1:function(${2:event}) {\n\t${0:/* Act on the event */}\n\}});'
+".source.js, .source.js-semantic":
+	mouseleave:
+		prefix: "mouseleave"
+		body: '''
+			mouseleave(${1:function(${2:event}) {
+				${0:/* Act on the event */}
+			}});
+		'''
+".source.coffee":
+	mouseleave:
+		prefix: "mouseleave"
+		body: '''
+			mouseleave ${1:(${2:event}) ->
+				${0:/* Act on the event */}
+			}
+		'''

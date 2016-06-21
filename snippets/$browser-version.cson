@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '$.browser.version':
-    'prefix': 'browser'
-    'body': '\$.browser.version'
+".source.js, .source.js-semantic":
+	"$.browser.version":
+		prefix: "browser"
+		body: "$.browser.version"
+".source.coffee":
+	"$.browser.version":
+		prefix: "browser"
+		body: "$.browser.version"

@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.scrollTop()':
-    'prefix': 'scrollTop'
-    'body': 'scrollTop(${1:value})$0'
+".source.js, .source.js-semantic":
+	".scrollTop()":
+		prefix: "scrollTop"
+		body: "scrollTop(${1:value})$0"
+".source.coffee":
+	".scrollTop()":
+		prefix: "scrollTop"
+		body: "scrollTop ${1:value}$0"

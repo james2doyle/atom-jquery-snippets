@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  'first':
-    'prefix': 'first'
-    'body': 'first()$0'
+".source.js, .source.js-semantic":
+	first:
+		prefix: "first"
+		body: "first();$0"
+".source.coffee":
+	first:
+		prefix: "first"
+		body: "first()$0"

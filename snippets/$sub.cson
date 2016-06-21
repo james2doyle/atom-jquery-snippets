@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '$.sub()':
-    'prefix': 'sub'
-    'body': '\$.sub();$0'
+".source.js, .source.js-semantic":
+	"$.sub()":
+		prefix: "sub"
+		body: "$.sub();$0"
+".source.coffee":
+	"$.sub()":
+		prefix: "sub"
+		body: "$.sub()$0"

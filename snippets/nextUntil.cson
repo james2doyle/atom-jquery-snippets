@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.nextUntil':
-    'prefix': 'nextUntil'
-    'body': 'nextUntil(${1:selector})$0'
+".source.js, .source.js-semantic":
+	".nextUntil":
+		prefix: "nextUntil"
+		body: "nextUntil(${1:selector})$0"
+".source.coffee":
+	".nextUntil":
+		prefix: "nextUntil"
+		body: "nextUntil ${1:selector}$0"

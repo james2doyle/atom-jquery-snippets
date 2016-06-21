@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.attr() - single':
-    'prefix': 'attr'
-    'body': 'attr(\'${1:attribute}\', \'${2:value}\');$0'
+".source.js, .source.js-semantic":
+	".attr() - single":
+		prefix: "attr"
+		body: "attr('${1:attribute}', '${2:value}');$0"
+".source.coffee":
+	".attr() - single":
+		prefix: "attr"
+		body: "attr '${1:attribute}', '${2:value}'$0"

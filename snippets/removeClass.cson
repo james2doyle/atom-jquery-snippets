@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.removeClass':
-    'prefix': 'removeClass'
-    'body': 'removeClass(\'${1:class name}\')$0'
+".source.js, .source.js-semantic":
+	".removeClass":
+		prefix: "removeClass"
+		body: "removeClass('${1:class name}')$0"
+".source.coffee":
+	".removeClass":
+		prefix: "removeClass"
+		body: "removeClass '${1:class name}'$0"

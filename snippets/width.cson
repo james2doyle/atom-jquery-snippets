@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.width':
-    'prefix': 'width'
-    'body': 'width(${1:integer})$0'
+".source.js, .source.js-semantic":
+	".width":
+		prefix: "width"
+		body: "width(${1:integer})$0"
+".source.coffee":
+	".width":
+		prefix: "width"
+		body: "width ${1:integer}$0"

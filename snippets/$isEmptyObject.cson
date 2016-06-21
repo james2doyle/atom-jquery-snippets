@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '$.isEmptyObject()':
-    'prefix': 'is'
-    'body': '\$.isEmptyObject(\'${1:object}\');$0'
+".source.js, .source.js-semantic":
+	"$.isEmptyObject()":
+		prefix: "is"
+		body: "$.isEmptyObject('${1:object}');$0"
+".source.coffee":
+	"$.isEmptyObject()":
+		prefix: "is"
+		body: "$.isEmptyObject '${1:object}'$0"

@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.position()':
-    'prefix': 'position'
-    'body': 'position();$0'
+".source.js, .source.js-semantic":
+	".position()":
+		prefix: "position"
+		body: "position();$0"
+".source.coffee":
+	".position()":
+		prefix: "position"
+		body: "position()$0"

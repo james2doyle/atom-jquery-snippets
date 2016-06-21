@@ -1,4 +1,15 @@
-'.source.js, .source.js-semantic':
-  '.error()':
-    'prefix': 'error'
-    'body': 'error(${1:function() {\n\t${0:/* Act on the event */}\n\}});'
+".source.js, .source.js-semantic":
+	".error()":
+		prefix: "error"
+		body: '''
+			error(${1:function() {
+				${0:/* Act on the event */}
+			}});
+		'''
+".source.coffee":
+	".error()":
+		prefix: "error"
+		body: '''
+			error ${1:() ->
+				${0:/* Act on the event */}}
+		'''

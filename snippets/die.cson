@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  'die':
-    'prefix': 'die'
-    'body': 'die(\'${1:eventType}\')$0'
+".source.js, .source.js-semantic":
+	die:
+		prefix: "die"
+		body: "die('${1:eventType}')$0"
+".source.coffee":
+	die:
+		prefix: "die"
+		body: "die '${1:eventType}'$0"

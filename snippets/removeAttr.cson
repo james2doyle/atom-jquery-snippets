@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.removeAttr()':
-    'prefix': 'removeAttr'
-    'body': 'removeAttr(\'${1:attribute name}\')$0'
+".source.js, .source.js-semantic":
+	".removeAttr()":
+		prefix: "removeAttr"
+		body: "removeAttr('${1:attribute name}')$0"
+".source.coffee":
+	".removeAttr()":
+		prefix: "removeAttr"
+		body: "removeAttr '${1:attribute name}'$0"

@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.unwrap()':
-    'prefix': 'unwrap'
-    'body': 'unwrap(${1:queueName});$0'
+".source.js, .source.js-semantic":
+	".unwrap()":
+		prefix: "unwrap"
+		body: "unwrap(${1:queueName});$0"
+".source.coffee":
+	".unwrap()":
+		prefix: "unwrap"
+		body: "unwrap ${1:queueName}$0"

@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.contents()':
-    'prefix': 'contents'
-    'body': 'contents();$0'
+".source.js, .source.js-semantic":
+	".contents()":
+		prefix: "contents"
+		body: "contents();$0"
+".source.coffee":
+	".contents()":
+		prefix: "contents"
+		body: "contents()$0"

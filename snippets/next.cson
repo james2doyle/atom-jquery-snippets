@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.next':
-    'prefix': 'next'
-    'body': 'next(${1:selector})$0'
+".source.js, .source.js-semantic":
+	".next":
+		prefix: "next"
+		body: "next(${1:selector})$0"
+".source.coffee":
+	".next":
+		prefix: "next"
+		body: "next ${1:selector}$0"

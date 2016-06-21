@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  'addClass':
-    'prefix': 'addClass'
-    'body': 'addClass(\'${1:class_name}\')$0'
+".source.js, .source.js-semantic":
+	addClass:
+		prefix: "addClass"
+		body: "addClass('${1:class_name}')$0"
+".source.coffee":
+	addClass:
+		prefix: "addClass"
+		body: "addClass '${1:class_name}'$0"
