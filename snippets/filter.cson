@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.filter()':
-    'prefix': 'filter'
-    'body': 'filter($1);$0'
+".source.js, .source.js-semantic":
+	".filter()":
+		prefix: "filter"
+		body: "filter($1);$0"
+".source.coffee":
+	".filter()":
+		prefix: "filter"
+		body: "filter($1)$0"

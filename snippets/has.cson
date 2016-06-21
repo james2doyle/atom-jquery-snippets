@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.has':
-    'prefix': 'has'
-    'body': 'has(${1:contained selector/element})$0'
+".source.js, .source.js-semantic":
+	".has":
+		prefix: "has"
+		body: "has(${1:contained selector/element})$0"
+".source.coffee":
+	".has":
+		prefix: "has"
+		body: "has ${1:contained selector/element}$0"

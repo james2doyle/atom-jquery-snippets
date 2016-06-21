@@ -1,4 +1,16 @@
-'.source.js, .source.js-semantic':
-  '.fadeTo()':
-    'prefix': 'fadeto'
-    'body': 'fadeTo(\'${1:slow/400/fast}\', ${2:0.5}${3:, function() {\n\t$4\n\}});$0'
+".source.js, .source.js-semantic":
+	".fadeTo()":
+		prefix: "fadeto"
+		body: '''
+			fadeTo('${1:slow/400/fast}', ${2:0.5}${3:, function() {
+				$4
+			}});$0
+		'''
+".source.coffee":
+	".fadeTo()":
+		prefix: "fadeto"
+		body: '''
+			fadeTo '${1:slow/400/fast}', ${2:0.5}${3:, ->
+				$4
+			}$0
+		'''

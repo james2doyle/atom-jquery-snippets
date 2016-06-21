@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.css() - single':
-    'prefix': 'css'
-    'body': 'css(\'${1:property}\', \'${2:value}\');$0'
+".source.js, .source.js-semantic":
+	".css() - single":
+		prefix: "css"
+		body: "css('${1:property}', '${2:value}');$0"
+".source.coffee":
+	".css() - single":
+		prefix: "css"
+		body: "css '${1:property}', '${2:value}'$0"

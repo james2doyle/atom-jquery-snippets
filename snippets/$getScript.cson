@@ -1,4 +1,16 @@
-'.source.js, .source.js-semantic':
-  '$.getScript()':
-    'prefix': 'get'
-    'body': '\$.getScript(\'${1:path/to/file}\', function(data, textStatus) {\n\t${3:/*optional stuff to do after getScript */ }\n});$0'
+".source.js, .source.js-semantic":
+	"$.getScript()":
+		prefix: "get"
+		body: '''
+			$.getScript('${1:path/to/file}', function(data, textStatus) {
+				${3:/*optional stuff to do after getScript */ }
+			});$0
+		'''
+".source.coffee":
+	"$.getScript()":
+		prefix: "get"
+		body: '''
+			$.getScript '${1:path/to/file}', (data, textStatus) ->
+				${3:# optional stuff to do after getScript}
+			$0
+		'''

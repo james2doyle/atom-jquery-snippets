@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.scrollLeft()':
-    'prefix': 'scrollLeft'
-    'body': 'scrollLeft(${1:value})$0'
+".source.js, .source.js-semantic":
+	".scrollLeft()":
+		prefix: "scrollLeft"
+		body: "scrollLeft(${1:value})$0"
+".source.coffee":
+	".scrollLeft()":
+		prefix: "scrollLeft"
+		body: "scrollLeft ${1:value}$0"

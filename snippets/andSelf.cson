@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  'andSelf':
-    'prefix': 'andSelf'
-    'body': 'andSelf()$0'
+".source.js, .source.js-semantic":
+	andSelf:
+		prefix: "andSelf"
+		body: "andSelf()$0"
+".source.coffee":
+	andSelf:
+		prefix: "andSelf"
+		body: "andSelf()$0"

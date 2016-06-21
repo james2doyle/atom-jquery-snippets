@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.siblings()':
-    'prefix': 'siblings'
-    'body': 'siblings(\'${1:selector}\')$0'
+".source.js, .source.js-semantic":
+	".siblings()":
+		prefix: "siblings"
+		body: "siblings('${1:selector}')$0"
+".source.coffee":
+	".siblings()":
+		prefix: "siblings"
+		body: "siblings '${1:selector}'$0"

@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.prevUntil()':
-    'prefix': 'prevUntil'
-    'body': 'prevUntil(${1:selector})$0'
+".source.js, .source.js-semantic":
+	".prevUntil()":
+		prefix: "prevUntil"
+		body: "prevUntil(${1:selector})$0"
+".source.coffee":
+	".prevUntil()":
+		prefix: "prevUntil"
+		body: "prevUntil ${1:selector}$0"

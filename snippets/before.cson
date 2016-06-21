@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.before()':
-    'prefix': 'before'
-    'body': 'before(\'${1:content}\');$0'
+".source.js, .source.js-semantic":
+	".before()":
+		prefix: "before"
+		body: "before('${1:content}');$0"
+".source.coffee":
+	".before()":
+		prefix: "before"
+		body: "before '${1:content}'$0"

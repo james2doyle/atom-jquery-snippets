@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.insertAfter()':
-    'prefix': 'insertAfter'
-    'body': 'insertAfter(\'${1:selector}\')$0'
+".source.js, .source.js-semantic":
+	".insertAfter()":
+		prefix: "insertAfter"
+		body: "insertAfter('${1:selector}')$0"
+".source.coffee":
+	".insertAfter()":
+		prefix: "insertAfter"
+		body: "insertAfter '${1:selector}'$0"

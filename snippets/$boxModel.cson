@@ -1,4 +1,13 @@
-'.source.js, .source.js-semantic':
-  '$.boxModel()':
-    'prefix': 'boxmodel'
-    'body': '\$.boxModel(${1:DOMelementArray});\n$0'
+".source.js, .source.js-semantic":
+	"$.boxModel()":
+		prefix: "boxmodel"
+		body: '''
+			$.boxModel(${1:DOMelementArray});
+			$0
+		'''
+".source.coffee":
+	"$.boxModel()":
+		prefix: "boxmodel"
+		body: '''
+			$.boxModel ${1:DOMelementArray}$0
+		'''

@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '$.holdReady':
-    'prefix': 'holdready'
-    'body': '\\\$.holdReady(${1:true/false});'
+".source.js, .source.js-semantic":
+	"$.holdReady":
+		prefix: "holdready"
+		body: "$.holdReady(${1:true/false});"
+".source.coffee":
+	"$.holdReady":
+		prefix: "holdready"
+		body: "$.holdReady ${1:true/false}"

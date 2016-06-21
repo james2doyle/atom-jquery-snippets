@@ -1,4 +1,16 @@
-'.source.js, .source.js-semantic':
-  '.load':
-    'prefix': 'load'
-    'body': 'load(${1:function() {\n\t${0:/* Act on the event */}\n\}});'
+".source.js, .source.js-semantic":
+	".load":
+		prefix: "load"
+		body: '''
+			load(${1:function() {
+				${0:/* Act on the event */}
+			}});
+		'''
+".source.coffee":
+	".load":
+		prefix: "load"
+		body: '''
+			load ${1:() ->
+				${0:# Act on the event}
+			}
+		'''

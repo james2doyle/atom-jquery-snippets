@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.text':
-    'prefix': 'text'
-    'body': 'text(${1:\'some text\'})$0'
+".source.js, .source.js-semantic":
+	".text":
+		prefix: "text"
+		body: "text(${1:'some text'})$0"
+".source.coffee":
+	".text":
+		prefix: "text"
+		body: "text ${1:'some text'}$0"

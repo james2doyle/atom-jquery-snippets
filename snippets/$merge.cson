@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '$.merge()':
-    'prefix': 'merge'
-    'body': '\$.merge(${1:array1}, ${2:array2});'
+".source.js, .source.js-semantic":
+	"$.merge()":
+		prefix: "merge"
+		body: "$.merge(${1:array1}, ${2:array2});"
+".source.coffee":
+	"$.merge()":
+		prefix: "merge"
+		body: "$.merge ${1:array1}, ${2:array2}"

@@ -1,4 +1,15 @@
-'.source.js, .source.js-semantic':
-  'replaceWith':
-    'prefix': 'replaceWith'
-    'body': 'replaceWith(\'${1:htmlString/DOMElement/jQueryObject}\'${2:, function() {\n\t$3\n\}});$0'
+".source.js, .source.js-semantic":
+	replaceWith:
+		prefix: "replaceWith"
+		body: '''
+			replaceWith('${1:htmlString/DOMElement/jQueryObject}'${2:, function() {
+				$3
+			}});$0
+		'''
+".source.coffee":
+	replaceWith:
+		prefix: "replaceWith"
+		body: '''
+			replaceWith '${1:htmlString/DOMElement/jQueryObject}'${2:, () ->
+				$3}$0
+		'''

@@ -1,4 +1,16 @@
-'.source.js, .source.js-semantic':
-  '$(document).ready':
-    'prefix': 'document.ready'
-    'body': '\$(document).ready(function() {\n\t$1\n});$0'
+".source.js, .source.js-semantic":
+	"$(document).ready":
+		prefix: "document.ready"
+		body: '''
+			$(document).ready(function() {
+				$1
+			});$0
+		'''
+".source.coffee":
+	"$(document).ready":
+		prefix: "document.ready"
+		body: '''
+			$(document).ready ->
+				$1
+			$0
+		'''

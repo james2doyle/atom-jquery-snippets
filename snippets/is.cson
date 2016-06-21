@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  'is':
-    'prefix': 'is'
-    'body': 'is(\'${1:selector}\')$0'
+".source.js, .source.js-semantic":
+	is:
+		prefix: "is"
+		body: "is('${1:selector}')$0"
+".source.coffee":
+	is:
+		prefix: "is"
+		body: "is '${1:selector}'$0"

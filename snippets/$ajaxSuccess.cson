@@ -1,4 +1,16 @@
-'.source.js, .source.js-semantic':
-  '$.ajaxSuccess()':
-    'prefix': 'ajaxsuccess'
-    'body': '\$.ajaxSuccess(function(event, xhr, settings) {\n\t${1:/* executes whenever an AJAX request completes successfully */}\n});$0'
+".source.js, .source.js-semantic":
+	"$.ajaxSuccess()":
+		prefix: "ajaxsuccess"
+		body: '''
+			$.ajaxSuccess(function(event, xhr, settings) {
+				${1:/* executes whenever an AJAX request completes successfully */}
+			});$0
+		'''
+".source.coffee":
+	"$.ajaxSuccess()":
+		prefix: "ajaxsuccess"
+		body: '''
+			$.ajaxSuccess (event, xhr, settings) ->
+				${1:# executes whenever an AJAX request completes successfully}
+			$0
+		'''

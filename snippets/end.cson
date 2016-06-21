@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  'end':
-    'prefix': 'end'
-    'body': 'end()$0'
+".source.js, .source.js-semantic":
+	end:
+		prefix: "end"
+		body: "end();$0"
+".source.coffee":
+	end:
+		prefix: "end"
+		body: "end()$0"

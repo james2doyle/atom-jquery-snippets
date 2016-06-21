@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.offset':
-    'prefix': 'offset'
-    'body': 'offset(${1:coordinates})$0'
+".source.js, .source.js-semantic":
+	".offset":
+		prefix: "offset"
+		body: "offset(${1:coordinates})$0"
+".source.coffee":
+	".offset":
+		prefix: "offset"
+		body: "offset ${1:coordinates}$0"

@@ -1,4 +1,16 @@
-'.source.js, .source.js-semantic':
-  '.each()':
-    'prefix': 'each'
-    'body': 'each(${1:function(${2:index}${3:, el}) {\n\t$4\n\}});$0'
+".source.js, .source.js-semantic":
+	".each()":
+		prefix: "each"
+		body: '''
+			each(${1:function(${2:index}${3:, el}) {
+				$4
+			}});$0
+		'''
+".source.coffee":
+	".each()":
+		prefix: "each"
+		body: '''
+			each ${1: (${2:index}${3:, el}) ->
+				$4
+			$0
+		'''

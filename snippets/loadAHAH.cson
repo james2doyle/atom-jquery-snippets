@@ -1,4 +1,22 @@
-'.source.js, .source.js-semantic':
-  '.load':
-    'prefix': 'load'
-    'body': 'load(\'/path/to/file\',{\n${2:param1: "value1", param2: "value2"\} },\n\tfunction(){\n\t${3:/* Stuff to do after the page is loaded */}\n});\n$0'
+".source.js, .source.js-semantic":
+	".load":
+		prefix: "load"
+		body: '''
+			load('/path/to/file',{
+			${2:param1: "value1", param2: "value2"} },
+				function(){
+				${3:/* Stuff to do after the page is loaded */}
+			});
+			$0
+		'''
+".source.coffee":
+	".load":
+		prefix: "load"
+		body: '''
+			load '/path/to/file',
+				${2:param1: "value1"
+				 param2: "value2"}
+				, ->
+					${3:# Stuff to do after the page is loaded}
+			$0
+		'''

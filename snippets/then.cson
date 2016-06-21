@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  'then':
-    'prefix': 'then'
-    'body': 'then(${1:doneCallbacks}, ${2:failCallbacks})$0'
+".source.js, .source.js-semantic":
+	then:
+		prefix: "then"
+		body: "then(${1:doneCallbacks}, ${2:failCallbacks})$0"
+".source.coffee":
+	then:
+		prefix: "then"
+		body: "then ${1:doneCallbacks}, ${2:failCallbacks}$0"

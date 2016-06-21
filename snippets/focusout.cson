@@ -1,4 +1,16 @@
-'.source.js, .source.js-semantic':
-  '.focusout()':
-    'prefix': 'focusout'
-    'body': 'focusout(${1:function(${2:event}) {\n\t${3:/* Act on the event */}\n\}});'
+".source.js, .source.js-semantic":
+	".focusout()":
+		prefix: "focusout"
+		body: '''
+			focusout(${1:function(${2:event}) {
+				${3:/* Act on the event */}
+			}});
+		'''
+".source.coffee":
+	".focusout()":
+		prefix: "focusout"
+		body: '''
+			focusout ${1: (${2:event}) ->
+				${3:/* Act on the event */}
+			};
+		'''

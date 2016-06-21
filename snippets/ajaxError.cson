@@ -1,4 +1,16 @@
-'.source.js, .source.js-semantic':
-  'ajaxError':
-    'prefix': 'ajaxerror'
-    'body': 'ajaxError(function(${1:event, xhr, settings, thrownError}) {\n\t${2:/* Stuff to do when an AJAX call returns an error */};\n});$0'
+".source.js, .source.js-semantic":
+	ajaxError:
+		prefix: "ajaxerror"
+		body: '''
+			ajaxError(function(${1:event, xhr, settings, thrownError}) {
+				${2:/* Stuff to do when an AJAX call returns an error */};
+			});$0
+		'''
+".source.coffee":
+	ajaxError:
+		prefix: "ajaxerror"
+		body: '''
+			ajaxError (${1:event, xhr, settings, thrownError}) ->
+				${2:# Stuff to do when an AJAX call returns an error}
+			$0
+		'''

@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.val()':
-    'prefix': 'val'
-    'body': 'val(${1:text})$0'
+".source.js, .source.js-semantic":
+	".val()":
+		prefix: "val"
+		body: "val(${1:text})$0"
+".source.coffee":
+	".val()":
+		prefix: "val"
+		body: "val ${1:text}$0"

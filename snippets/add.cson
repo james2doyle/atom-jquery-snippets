@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  'add':
-    'prefix': 'add'
-    'body': 'add(\'${1:selector/elements/html}\')$0'
+".source.js, .source.js-semantic":
+	add:
+		prefix: "add"
+		body: "add('${1:selector/elements/html}')$0"
+".source.coffee":
+	add:
+		prefix: "add"
+		body: "add '${1:selector/elements/html}'$0"

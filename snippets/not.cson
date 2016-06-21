@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.not()':
-    'prefix': 'not'
-    'body': 'not(\'${1:selector}\')$0'
+".source.js, .source.js-semantic":
+	".not()":
+		prefix: "not"
+		body: "not('${1:selector}')$0"
+".source.coffee":
+	".not()":
+		prefix: "not"
+		body: "not '${1:selector}'$0"

@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.removeProp()':
-    'prefix': 'removeprop'
-    'body': 'removeProp(\'${1:property name}\')$0'
+".source.js, .source.js-semantic":
+	".removeProp()":
+		prefix: "removeprop"
+		body: "removeProp('${1:property name}')$0"
+".source.coffee":
+	".removeProp()":
+		prefix: "removeprop"
+		body: "removeProp '${1:property name}'$0"

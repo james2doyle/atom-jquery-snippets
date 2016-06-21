@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '$.now()':
-    'prefix': 'now'
-    'body': '\$.now();$0'
+".source.js, .source.js-semantic":
+	"$.now()":
+		prefix: "now"
+		body: "$.now();$0"
+".source.coffee":
+	"$.now()":
+		prefix: "now"
+		body: "$.now()$0"

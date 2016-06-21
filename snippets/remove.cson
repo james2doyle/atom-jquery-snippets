@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.remove()':
-    'prefix': 'remove'
-    'body': 'remove()$0'
+".source.js, .source.js-semantic":
+	".remove()":
+		prefix: "remove"
+		body: "remove()$0"
+".source.coffee":
+	".remove()":
+		prefix: "remove"
+		body: "remove()$0"

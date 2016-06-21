@@ -1,6 +1,6 @@
 # jQuery Snippets for [Atom](http://atom.io)
 
-This is a snippets package for Atom. It is a conversion of an old jQuery snippets for sublime text.
+This is a snippets package for Atom. It is a conversion of an old jQuery snippets for sublime text. Snippets provided for *Javascript* and in *CoffeeScript*
 
 This package is pretty much a copy-paste from [zenorocha/atom-javascript-snippets](https://github.com/zenorocha/atom-javascript-snippets). Except it's jQuery specific.
 

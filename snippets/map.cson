@@ -1,4 +1,15 @@
-'.source.js, .source.js-semantic':
-  'map':
-    'prefix': 'map'
-    'body': 'map(function(${1:index}${2:, ${3:elem}}) {\n\t${4:return ${5:something};}\n})'
+".source.js, .source.js-semantic":
+	map:
+		prefix: "map"
+		body: '''
+			map(function(${1:index}${2:, ${3:elem}}) {
+				${4:return ${5:something};}
+			})
+		'''
+".source.coffee":
+	map:
+		prefix: "map"
+		body: '''
+			map (${1:index}${2:, ${3:elem}}) ->
+				${4:return ${5:something}}
+		'''

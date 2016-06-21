@@ -1,4 +1,16 @@
-'.source.js, .source.js-semantic':
-  '.reset()':
-    'prefix': 'reset'
-    'body': 'reset(${1:function(${2:event}) {\n\t${3:/* Act on the event */}\n\}});$0'
+".source.js, .source.js-semantic":
+	".reset()":
+		prefix: "reset"
+		body: '''
+			reset(${1:function(${2:event}) {
+				${3:/* Act on the event */}
+			}});$0
+		'''
+".source.coffee":
+	".reset()":
+		prefix: "reset"
+		body: '''
+			reset ${1:(${2:event}) ->
+				${3:# Act on the event}
+			}$0
+		'''

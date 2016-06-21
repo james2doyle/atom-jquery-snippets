@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.promise()':
-    'prefix': 'promise'
-    'body': 'promise(${1:\'${2:type}\'${3:, target} })$0'
+".source.js, .source.js-semantic":
+	".promise()":
+		prefix: "promise"
+		body: "promise(${1:'${2:type}'${3:, target} })$0"
+".source.coffee":
+	".promise()":
+		prefix: "promise"
+		body: "promise ${1:'${2:type}'${3:, target} }$0"

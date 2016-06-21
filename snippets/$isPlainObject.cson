@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '$.isPlainObject()':
-    'prefix': 'is'
-    'body': '\$.isPlainObject(\'${1:object}\');$0'
+".source.js, .source.js-semantic":
+	"$.isPlainObject()":
+		prefix: "is"
+		body: "$.isPlainObject('${1:object}');$0"
+".source.coffee":
+	"$.isPlainObject()":
+		prefix: "is"
+		body: "$.isPlainObject '${1:object}'$0"

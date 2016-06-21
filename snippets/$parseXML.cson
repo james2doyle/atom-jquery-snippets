@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '$.parseXML()':
-    'prefix': 'parse'
-    'body': '\$.parseXML(\'${1:XML}\');$0'
+".source.js, .source.js-semantic":
+	"$.parseXML()":
+		prefix: "parse"
+		body: "$.parseXML('${1:XML}');$0"
+".source.coffee":
+	"$.parseXML()":
+		prefix: "parse"
+		body: "$.parseXML '${1:XML}'$0"

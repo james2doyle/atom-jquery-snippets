@@ -1,4 +1,17 @@
-'.source.js, .source.js-semantic':
-  '$.ajaxStart()':
-    'prefix': 'ajaxstart'
-    'body': '\$.ajaxStart(function() {\n\t${1:/* Stuff to do when an AJAX call is started and no other AJAX calls are in progress */};\n});\n$0'
+".source.js, .source.js-semantic":
+	"$.ajaxStart()":
+		prefix: "ajaxstart"
+		body: '''
+			$.ajaxStart(function() {
+				${1:/* Stuff to do when an AJAX call is started and no other AJAX calls are in progress */};
+			});
+			$0
+		'''
+".source.coffee":
+	"$.ajaxStart()":
+		prefix: "ajaxstart"
+		body: '''
+			$.ajaxStart () ->
+				${1:# Stuff to do when an AJAX call is started and no other AJAX calls are in progress}
+			$0
+		'''

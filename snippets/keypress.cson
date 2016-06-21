@@ -1,4 +1,16 @@
-'.source.js, .source.js-semantic':
-  'keypress':
-    'prefix': 'keypress'
-    'body': 'keypress(${1:function(${2:event}) {\n\t${0:/* Act on the event */}\n\}});'
+".source.js, .source.js-semantic":
+	keypress:
+		prefix: "keypress"
+		body: '''
+			keypress(${1:function(${2:event}) {
+				${0:/* Act on the event */}
+			}});
+		'''
+".source.coffee":
+	keypress:
+		prefix: "keypress"
+		body: '''
+			keypress ${1:(${2:event}) ->
+				${0:# Act on the event}
+			}
+		'''

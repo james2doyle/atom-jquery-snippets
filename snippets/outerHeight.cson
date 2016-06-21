@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.outerHeight':
-    'prefix': 'outerHeight'
-    'body': 'outerHeight()$0'
+".source.js, .source.js-semantic":
+	".outerHeight":
+		prefix: "outerHeight"
+		body: "outerHeight()$0"
+".source.coffee":
+	".outerHeight":
+		prefix: "outerHeight"
+		body: "outerHeight()$0"

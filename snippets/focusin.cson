@@ -1,4 +1,16 @@
-'.source.js, .source.js-semantic':
-  '.focusin()':
-    'prefix': 'focusin'
-    'body': 'focusin(${1:function(${2:event}) {\n\t${3:/* Act on the event */}\n\}});$0'
+".source.js, .source.js-semantic":
+	".focusin()":
+		prefix: "focusin"
+		body: '''
+			focusin(${1:function(${2:event}) {
+				${3:/* Act on the event */}
+			}});$0
+		'''
+".source.coffee":
+	".focusin()":
+		prefix: "focusin"
+		body: '''
+			focusin ${1: (${2:event}) ->
+				${3:/* Act on the event */}
+			}$0
+		'''

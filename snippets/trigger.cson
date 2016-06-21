@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  'trigger':
-    'prefix': 'trigger'
-    'body': 'trigger(\'${1:event name}\')$0'
+".source.js, .source.js-semantic":
+	trigger:
+		prefix: "trigger"
+		body: "trigger('${1:event name}')$0"
+".source.coffee":
+	trigger:
+		prefix: "trigger"
+		body: "trigger '${1:event name}'$0"

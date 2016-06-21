@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.nextAll':
-    'prefix': 'nextAll'
-    'body': 'nextAll(${1:selector})$0'
+".source.js, .source.js-semantic":
+	".nextAll":
+		prefix: "nextAll"
+		body: "nextAll(${1:selector})$0"
+".source.coffee":
+	".nextAll":
+		prefix: "nextAll"
+		body: "nextAll ${1:selector}$0"

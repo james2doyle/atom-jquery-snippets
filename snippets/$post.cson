@@ -1,4 +1,16 @@
-'.source.js, .source.js-semantic':
-  '$.post()':
-    'prefix': 'post'
-    'body': '\$.post(\'${1:/path/to/file}\'${2:, param1: \'value1\'}, function(data, textStatus, xhr) {\n\t${3:/*optional stuff to do after success */}\n});$0'
+".source.js, .source.js-semantic":
+	"$.post()":
+		prefix: "post"
+		body: '''
+			$.post('${1:/path/to/file}'${2:, param1: 'value1'}, function(data, textStatus, xhr) {
+				${3:/*optional stuff to do after success */}
+			});$0
+		'''
+".source.coffee":
+	"$.post()":
+		prefix: "post"
+		body: '''
+			$.post '${1:/path/to/file}'${2:, param1: 'value1'}, (data, textStatus, xhr) ->
+				${3:# optional stuff to do after success}
+			$0
+		'''

@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '$(this)':
-    'prefix': 'this'
-    'body': '\$(this)$0'
+".source.js, .source.js-semantic":
+	"$(this)":
+		prefix: "this"
+		body: "$(this)$0"
+".source.coffee":
+	"$(this)":
+		prefix: "this"
+		body: "$(this)$0"

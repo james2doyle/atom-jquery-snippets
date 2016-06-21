@@ -1,4 +1,8 @@
-'.source.js, .source.js-semantic':
-  '.prependTo()':
-    'prefix': 'prependTo'
-    'body': 'prependTo(\'${1:selector}\')$0'
+".source.js, .source.js-semantic":
+	".prependTo()":
+		prefix: "prependTo"
+		body: "prependTo('${1:selector}')$0"
+".source.coffee":
+	".prependTo()":
+		prefix: "prependTo"
+		body: "prependTo '${1:selector}'$0"
