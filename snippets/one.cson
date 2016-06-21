@@ -11,5 +11,5 @@
 		prefix: "one"
 		body: '''
 			one '${1:event name}', (${2:event}) ->
-				${0:/* Act on the event */}
+				${0:# Act on the event}
 		'''

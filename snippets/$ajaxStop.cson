@@ -12,6 +12,6 @@
 		prefix: "ajaxstop"
 		body: '''
 			$.ajaxStop () ->
-				${1:/* stuff to do when all AJAX calls have completed */}
+				${1:# stuff to do when all AJAX calls have completed}
 			$0
 		'''

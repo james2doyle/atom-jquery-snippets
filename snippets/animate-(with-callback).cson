@@ -18,5 +18,5 @@
 					${4:${5:param2}: ${6:value2}}
 				, ${7:speed}
 				, () ->
-					${0:/* stuff to do after animation is complete */}
+					${0:# stuff to do after animation is complete}
 		'''

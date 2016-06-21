@@ -16,7 +16,7 @@
 			load '/path/to/file',
 				${2:param1: "value1"
 				 param2: "value2"}
-				, () ->
-					${3:/* Stuff to do after the page is loaded */}
+				, ->
+					${3:# Stuff to do after the page is loaded}
 			$0
 		'''

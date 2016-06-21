@@ -11,6 +11,6 @@
 		prefix: "scroll"
 		body: '''
 			scroll ${1:(${2:event}) ->
-				${0:/* Act on the event */}
+				${0:# Act on the event}
 			}
 		'''

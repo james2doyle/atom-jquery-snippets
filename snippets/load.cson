@@ -11,6 +11,6 @@
 		prefix: "load"
 		body: '''
 			load ${1:() ->
-				${0:/* Act on the event */}
+				${0:# Act on the event}
 			}
 		'''

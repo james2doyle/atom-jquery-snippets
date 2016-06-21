@@ -11,5 +11,5 @@
 		prefix: "bind"
 		body: '''
 			bind '${1:event name}', ${2:eventData}, (${3:event}) ->
-				${0:/* Act on the event */}
+				${0:# Act on the event}
 		'''

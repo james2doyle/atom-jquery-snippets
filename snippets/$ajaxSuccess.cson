@@ -11,6 +11,6 @@
 		prefix: "ajaxsuccess"
 		body: '''
 			$.ajaxSuccess (event, xhr, settings) ->
-				${1:/* executes whenever an AJAX request completes successfully */}
+				${1:# executes whenever an AJAX request completes successfully}
 			$0
 		'''

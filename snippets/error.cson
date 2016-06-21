@@ -11,5 +11,6 @@
 		prefix: "error"
 		body: '''
 			error ${1:() ->
-				${0:/* Act on the event */}}
+				${0:# Act on the event}
+			}
 		'''

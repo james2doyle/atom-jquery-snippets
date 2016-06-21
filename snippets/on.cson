@@ -12,6 +12,6 @@
 		prefix: "on"
 		body: '''
 			on '${1:click}'${2:, '${3:.selector}'}, (${4:event}) ->
-				${5:event.preventDefault();}
-				${6:/* Act on the event */}
+				${5:event.preventDefault()}
+				${6:# Act on the event}
 		'''

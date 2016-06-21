@@ -11,6 +11,6 @@
 		prefix: "get"
 		body: '''
 			$.getScript '${1:path/to/file}', (data, textStatus) ->
-				${3:/*optional stuff to do after getScript */ }
+				${3:# optional stuff to do after getScript}
 			$0
 		'''

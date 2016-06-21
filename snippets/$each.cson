@@ -11,5 +11,5 @@
 		prefix: "each"
 		body: '''
 			$.each ${1:array/object}, (${2:index}${3:, ${4:val}} ->
-				${0: /* iterate through array or object */}
+				${0:# iterate through array or object}
 		'''

@@ -11,6 +11,6 @@
 		prefix: "get"
 		body: '''
 			$.get '${1:/path/to/file}', (data) ->
-				${3:/*optional stuff to do after success */}
+				${3:# optional stuff to do after success}
 			$0
 		'''

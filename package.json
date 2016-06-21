@@ -3,6 +3,12 @@
   "main": "./lib/jquery-snippets",
   "version": "11.0.0",
   "description": "jQuery Snippets for Atom",
+  "keywords": [
+	  "jquery",
+	  "snippets",
+	  "javascript",
+	  "coffeescript"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/james2doyle/atom-jquery-snippets"

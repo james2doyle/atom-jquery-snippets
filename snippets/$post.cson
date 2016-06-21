@@ -11,6 +11,6 @@
 		prefix: "post"
 		body: '''
 			$.post '${1:/path/to/file}'${2:, param1: 'value1'}, (data, textStatus, xhr) ->
-				${3:/*optional stuff to do after success */}
+				${3:# optional stuff to do after success}
 			$0
 		'''

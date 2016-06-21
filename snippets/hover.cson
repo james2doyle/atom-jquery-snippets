@@ -13,8 +13,8 @@
 		prefix: "hover"
 		body: '''
 			hover ->
-				${1:/* Stuff to do when the mouse enters the element */}
+				${1:# Stuff to do when the mouse enters the element}
 			, ->
-				${2:/* Stuff to do when the mouse leaves the element */}
+				${2:# Stuff to do when the mouse leaves the element}
 			$0
 		'''

@@ -11,6 +11,6 @@
 		prefix: "ajaxerror"
 		body: '''
 			ajaxError (${1:event, xhr, settings, thrownError}) ->
-				${2:/* Stuff to do when an AJAX call returns an error */};
+				${2:# Stuff to do when an AJAX call returns an error}
 			$0
 		'''

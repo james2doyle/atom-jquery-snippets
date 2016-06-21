@@ -11,6 +11,6 @@
 		prefix: "ajaxComplete"
 		body: '''
 			ajaxComplete (event, xhr, settings) ->
-				${1:/* executes whenever an AJAX request completes */}
+				${1:# executes whenever an AJAX request completes}
 			$0
 		'''

@@ -11,6 +11,6 @@
 		prefix: "reset"
 		body: '''
 			reset ${1:(${2:event}) ->
-				${3:/* Act on the event */}
+				${3:# Act on the event}
 			}$0
 		'''
